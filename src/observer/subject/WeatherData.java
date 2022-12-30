@@ -1,4 +1,6 @@
-package observer;
+package observer.subject;
+
+import observer.object.Observer;
 
 import java.util.ArrayList;
 

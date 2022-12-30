@@ -1,5 +1,8 @@
 package observer;
 
+import observer.object.CurrentConditionsDisplay;
+import observer.subject.WeatherData;
+
 public class WeatherStation {
     public static void main(String[] args) {
 

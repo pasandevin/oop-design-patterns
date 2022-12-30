@@ -1,4 +1,4 @@
-package observerbuiltin;
+package observerbuiltin.subject;
 
 import java.util.Observable;
 
