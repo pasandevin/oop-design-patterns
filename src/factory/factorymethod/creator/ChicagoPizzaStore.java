@@ -1,7 +1,7 @@
-package factory.creator;
+package factory.factorymethod.creator;
 
-import factory.product.ChicagoStyleCheesePizza;
-import factory.product.Pizza;
+import factory.factorymethod.product.ChicagoStyleCheesePizza;
+import factory.factorymethod.product.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
     Pizza createPizza(String item) {

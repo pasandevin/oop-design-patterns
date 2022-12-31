@@ -1,6 +1,6 @@
-package factory.creator;
+package factory.factorymethod.creator;
 
-import factory.product.Pizza;
+import factory.factorymethod.product.Pizza;
 
 public abstract class PizzaStore {
     public Pizza orderPizza(String type) {

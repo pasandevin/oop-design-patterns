@@ -1,9 +1,9 @@
-package factory;
+package factory.factorymethod;
 
-import factory.creator.ChicagoPizzaStore;
-import factory.creator.NYPizzaStore;
-import factory.creator.PizzaStore;
-import factory.product.Pizza;
+import factory.factorymethod.creator.ChicagoPizzaStore;
+import factory.factorymethod.creator.NYPizzaStore;
+import factory.factorymethod.creator.PizzaStore;
+import factory.factorymethod.product.Pizza;
 
 public class PizzaTestDrive {
     public static void main(String[] args) {
