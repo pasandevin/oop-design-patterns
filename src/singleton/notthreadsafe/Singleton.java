@@ -1,4 +1,4 @@
-package singleton;
+package singleton.notthreadsafe;
 
 public class Singleton {
     private static Singleton uniqueInstance;
