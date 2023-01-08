@@ -1,4 +1,6 @@
-package command;
+package command.command;
+
+import command.receiver.GarageDoor;
 
 public class GarageDoorOpenCommand implements Command {
     GarageDoor garageDoor;
@@ -9,5 +11,9 @@ public class GarageDoorOpenCommand implements Command {
 
     public void execute() {
         garageDoor.up();
+    }
+
+    public void undo() {
+        garageDoor.down();
     }
 }

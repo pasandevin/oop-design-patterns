@@ -1,4 +1,4 @@
-package command;
+package command.receiver;
 
 public class Light {
     public void on() {

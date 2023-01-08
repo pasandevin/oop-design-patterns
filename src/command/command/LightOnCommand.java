@@ -1,4 +1,6 @@
-package command;
+package command.command;
+
+import command.receiver.Light;
 
 public class LightOnCommand implements Command {
     Light light;
@@ -9,5 +11,9 @@ public class LightOnCommand implements Command {
 
     public void execute() {
         light.on();
+    }
+
+    public void undo() {
+        light.off();
     }
 }

@@ -1,4 +1,6 @@
-package command;
+package command.client;
+
+import command.command.Command;
 
 public class RemoteControl {
     Command slot;
