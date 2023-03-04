@@ -1,7 +1,12 @@
 package template_method;
 
 public abstract class CaffeineBeverage {
-    abstract void prepareRecipe();
+    final void prepareRecipe() {
+        boilWater();
+        brew();
+        pourInCup();
+        addCondiments();
+    }
 
     abstract void brew();
 
