@@ -9,4 +9,8 @@ public class Coffee extends CaffeineBeverage {
     protected void addCondiments() {
         System.out.println("Adding Sugar and Milk");
     }
+
+    boolean customerWantsCondiments() {
+        return false;
+    }
 }
