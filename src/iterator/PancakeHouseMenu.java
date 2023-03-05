@@ -24,8 +24,8 @@ public class PancakeHouseMenu {
         }
     }
 
-    public MenuItem[] getMenuItems() {
-        return menuItems;
+    public Iterator createIterator() {
+        return new PancakeMenuIterator(menuItems);
     }
 
     // other menu methods here
