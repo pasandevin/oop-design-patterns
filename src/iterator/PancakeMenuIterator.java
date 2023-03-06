@@ -1,21 +1,23 @@
 package iterator;
 
+import java.util.ArrayList;
+
 public class PancakeMenuIterator implements Iterator {
-    MenuItem[] items;
+    ArrayList items;
     int position = 0;
 
-    public PancakeMenuIterator(MenuItem[] items) {
+    public PancakeMenuIterator(ArrayList items) {
         this.items = items;
     }
 
     public Object next() {
-        MenuItem menuItem = items[position];
+        Object object = items.get(position);
         position = position + 1;
-        return menuItem;
+        return object;
     }
 
     public boolean hasNext() {
-        if (position >= items.length || items[position] == null) {
+        if (position >= items.size()) {
             return false;
         } else {
             return true;
