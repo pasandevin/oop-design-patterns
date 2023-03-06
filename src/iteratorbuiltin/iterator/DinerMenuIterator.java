@@ -1,4 +1,6 @@
-package iteratorbuiltin;
+package iteratorbuiltin.iterator;
+
+import iteratorbuiltin.aggregate.MenuItem;
 
 import java.util.Iterator;
 

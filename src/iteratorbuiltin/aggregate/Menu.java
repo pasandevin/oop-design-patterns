@@ -1,4 +1,4 @@
-package iteratorbuiltin;
+package iteratorbuiltin.aggregate;
 
 import java.util.Iterator;
 

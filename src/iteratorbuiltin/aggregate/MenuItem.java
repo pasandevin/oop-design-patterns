@@ -1,4 +1,4 @@
-package iteratorbuiltin;
+package iteratorbuiltin.aggregate;
 
 public class MenuItem {
     String name;

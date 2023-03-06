@@ -1,4 +1,7 @@
-package iterator;
+package iterator.aggregate;
+
+import iterator.iterator.DinerMenuIterator;
+import iterator.iterator.Iterator;
 
 public class DinerMenu {
     static final int MAX_ITEMS = 6;

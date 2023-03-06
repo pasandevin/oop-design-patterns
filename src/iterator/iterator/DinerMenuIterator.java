@@ -1,4 +1,6 @@
-package iterator;
+package iterator.iterator;
+
+import iterator.aggregate.MenuItem;
 
 public class DinerMenuIterator implements Iterator {
     MenuItem[] items;

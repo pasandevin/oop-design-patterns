@@ -1,4 +1,4 @@
-package iterator;
+package iterator.aggregate;
 
 public class MenuItem {
     String name;

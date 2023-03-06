@@ -1,5 +1,10 @@
 package iterator;
 
+import iterator.aggregate.DinerMenu;
+import iterator.aggregate.MenuItem;
+import iterator.aggregate.PancakeHouseMenu;
+import iterator.iterator.Iterator;
+
 public class Waitress {
     PancakeHouseMenu pancakeHouseMenu;
     DinerMenu dinerMenu;

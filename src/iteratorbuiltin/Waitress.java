@@ -1,5 +1,8 @@
 package iteratorbuiltin;
 
+import iteratorbuiltin.aggregate.Menu;
+import iteratorbuiltin.aggregate.MenuItem;
+
 import java.util.Iterator;
 
 public class Waitress {
