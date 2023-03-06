@@ -20,7 +20,7 @@ public class PancakeHouseMenu {
     }
 
     public Iterator createIterator() {
-        return new PancakeMenuIterator(menuItems);
+        return new PancakeHouseMenuIterator(menuItems);
     }
     // other menu methods here
 }

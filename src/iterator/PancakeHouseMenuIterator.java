@@ -2,11 +2,11 @@ package iterator;
 
 import java.util.ArrayList;
 
-public class PancakeMenuIterator implements Iterator {
+public class PancakeHouseMenuIterator implements Iterator {
     ArrayList items;
     int position = 0;
 
-    public PancakeMenuIterator(ArrayList items) {
+    public PancakeHouseMenuIterator(ArrayList items) {
         this.items = items;
     }
 
