@@ -79,5 +79,17 @@ public class GumballMachine {
     public State getWinnerState() {
         return winnerState;
     }
-    
+
+    public String toString() {
+        StringBuffer result = new StringBuffer();
+        result.append("Mighty Gumball, Inc.");
+        result.append("Java-enabled Standing Gumball Model #2004");
+        result.append("Inventory: " + count + " gumball");
+        if (count != 1) {
+            result.append("s");
+        }
+        result.append(" Machine is " + state);
+        return result.toString();
+    }
+
 }
